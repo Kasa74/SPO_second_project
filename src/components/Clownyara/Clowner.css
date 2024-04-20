@@ -1,0 +1,34 @@
+.container1 {
+  max-width: 1480px;
+  padding: 0px 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  flex-shrink: 1;
+  position: relative;
+  width: 100%;
+  height: 390px;
+  margin-top: 60px;
+  color: #fff;
+}
+div .main-text {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 29px;
+  width: 355px;
+  height: 395px;
+  text-align: right;
+  margin-right: 50px;
+}
+h2 {
+  font-size: 36px;
+}
+
+.container1 .Photo {
+  background: url("../../assets/img/photoprelast.png");
+  width: 950px;
+  height: auto;
+  margin-top: 6px;
+  display: grid;
+  justify-self: end;
+}

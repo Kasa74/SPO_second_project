@@ -1,0 +1,35 @@
+.earlyBirdsPage {
+  padding-top: 12px;
+}
+
+.earlyBirdsPage__container {
+  max-width: 1480px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.earlyBirdsPage__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 345px;
+}
+
+.earlyBirdsPage__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.earlyBirdsPage__title__text {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.earlyBirdsPage__title__date {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 22px;
+}

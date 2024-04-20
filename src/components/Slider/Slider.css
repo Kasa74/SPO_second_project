@@ -1,0 +1,37 @@
+.carousel-container {
+  max-width: 1480px;
+  padding: 0px 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.carousel-image {
+  width: 355px;
+  height: 330px;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+
+.carousel-image.active {
+  width: 730px;
+  height: 380px;
+  filter: none;
+}
+
+.carousel-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}

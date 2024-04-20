@@ -1,0 +1,47 @@
+
+.News {
+    display: flex;
+    flex-wrap: wrap; /* Перенос на следующую строку */
+    gap: 50px;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #fff;
+
+}
+
+.New1,
+.New2,
+.New3,
+.New4,
+.New5,
+.New6 {
+    width: 650px;
+    height: 400px;
+    background-color: #c0c0c0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.New1{
+    background: url("../../assets/img/11.png");
+}
+.New2{
+    background: url("../../assets/img/12.png");
+}
+.New3{
+    background: url("../../assets/img/13.png");
+}
+.New4{
+    background: url("../../assets/img/14.png");
+}
+.New5{
+    background: url("../../assets/img/15.png");
+}
+.New6{
+    background: url("../../assets/img/16.png");
+}

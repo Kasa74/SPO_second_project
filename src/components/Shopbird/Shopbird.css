@@ -1,0 +1,90 @@
+.container {
+  max-width: 1480px;
+  padding: 0px 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 1;
+  position: relative;
+}
+
+.container .text {
+  font-size: 32px;
+  font-weight: 600;
+  margin-right: 28px;
+  margin-bottom: 20px;
+}
+.container .box1,
+.container .box2 {
+  cursor: pointer;
+  position: relative;
+  width: 720px;
+  height: 200px;
+  overflow: hidden;
+  text-align: end;
+}
+
+.container .box1 {
+  background-color: #1b2d1f;
+}
+
+.container .box1 .text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+}
+
+.container .box2 {
+  background-color: #7e756d;
+}
+
+.container .text1 {
+  font-size: 32px;
+  font-weight: 600;
+  z-index: 1;
+}
+.container .box2 .text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.container .box1::before {
+  content: "";
+  position: absolute;
+  right: 530px;
+  top: 20px;
+  height: 100%;
+  width: 259px;
+  background-image: url("../../assets/img/logo.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.container .box1:hover::before {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.container .box2::before {
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  height: 100%;
+  width: 259px;
+  background-image: url("../../assets/img/Group41231.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.container .box2:hover::before {
+  transform: scale(1.1);
+  opacity: 1;
+}
